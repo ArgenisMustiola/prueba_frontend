@@ -1,0 +1,14 @@
+{
+  "name": "prueba",
+  "description": "Prueba practica desarrollador frontednd",
+  "main": "index.html",
+  "authors": [
+    "Argenis Mustiola <argmustiola@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "components-font-awesome": "^4.7.0"
+  }
+}

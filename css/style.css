@@ -1,0 +1,120 @@
+body {
+  padding-bottom: 20px;
+}
+.bg-grey{
+	background-color: #2d2d2d;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+
+.bg-dred{
+	background-color: #7a1515;
+}
+.text-dred{
+	color: #7a1515;
+}
+
+.nav-logo{
+	max-height: 35px;
+	min-height: 35px;
+}
+
+.navbar-inverse .navbar-nav .active>.nav-link{
+    color: #4a4a4a;
+    background-color: lightgray;
+}
+
+.no-bg{
+	background-color: transparent;
+}
+a.breadcrumb-item{
+	color: white;
+}
+.img_back {
+  background: url("../images/back.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.log{
+	width: 50% !important;
+}
+
+@media (max-width: 768px) {
+	.log{
+		width: 85% !important;
+	}
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+.cover {
+  padding: 0 1.5rem;
+}
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .masthead, .cover-container {
+    width: 42rem;
+  }
+}
+
+
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
